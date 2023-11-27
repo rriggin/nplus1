@@ -6,6 +6,27 @@ title: /
 permalink: /
 ---
 
+<h1>N+1 Digital</h1>
+
+<div id="typejs" element to contain animated typing>
+  <span id="element"></span>
+
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>Welcome</i> to N+1 Digital.',' A growth tech consultancy', ' for startups and e-commerce brands', ' Click the button to start. 👇'],
+      typeSpeed: 50,
+    });
+  </script>
+</div>
+
+<div id="start">
+  <a href="mailto:ryan@nplus1.digital"><button type="button"> Start &gt;</button></a>
+</div>
+
 <h1>Client Work</h1>
 
 <a href="http://www.borahteamwear.com" rel="nofollow">Borah Teamwear</a>
